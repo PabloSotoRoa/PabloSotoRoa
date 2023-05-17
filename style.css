@@ -1,0 +1,127 @@
+.infoP #Ti1 h1{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 55px;
+    margin: 0%;
+}
+
+.img{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.infoP #info1 h3{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 160px;
+    margin: 1%;
+    justify-content: center;
+
+}
+
+.infoP #infoT h1{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 55px;
+    margin: 1%;
+
+}
+.container .caja {
+    color: yellow;
+    height: 410px;
+    width: 1fr;
+    background: #171717;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.navs{
+    position: fixed;
+    width: 100%;
+    
+}
+
+.infok #Ti1 h1{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 500px;
+    margin: 0;
+}
+
+.infoh #Ti1 h1{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 50px;
+    margin: 0;
+}
+
+.infoj #Ti1 h1{
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    height: 50px;
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+
+.banner img {
+    width: 130px;
+    height: 130px;
+  }
+
+.contactos {
+    color: yellow;
+    height: 700px;
+    width: center;
+    background: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.galeria{
+    color: yellow;
+    text-align: center;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    background: black;
+}
+
+.piepagina{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+
+}

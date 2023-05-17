@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+</head>
+<body>
+    <div class="navs">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid" bg-dark>
+              <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Completos Infinitos</font></font></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Navegación de palanca">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio
+                      </font></font><span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(actual)</font></font></span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Precio.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalles y Precios</font></font></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Galeria.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Galeria</font></font></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="search" placeholder="Buscar">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar</font></font></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </div> 
+      <div class="infoh">
+        <div id="Ti1">
+            <h1></h1>
+        </div>
+        <div class="contactos">
+            <h2>Contacto</h2>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="rut">Rut:</label><br>
+                <input type="text" id="rut" name="rut" required><br><br>
+        
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+        
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" id="apellidos" name="apellidos" required><br><br>
+        
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+        
+                <label for="asunto">Asunto:</label><br>
+                <textarea id="asunto" name="asunto" rows="4" cols="40" required></textarea><br><br>
+        
+                <label for="consulta">Consulta:</label><br>
+                <textarea id="consulta" name="consulta" rows="4" cols="40" required></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <footer>
+          <div class="piepagina">
+            <div class="company-info">
+              <h4>Información de la empresa</h4>
+              <p>Empresa Completos Infinitos</p>
+              <p>Dirección: Manso Velasco, San Fernando, Chile</p>
+              <p>Teléfono: +56957456789</p>
+              <p>Correo electrónico: Completo.infinito@gmail.com</p>
+            </div>
+            <div class="pedidos">
+              <h4>Pedidos a:</h4>
+              <p>WhatsApp: +56996325874</p>
+              <p>Instagram: @completosinfinitos</p>
+              <p>Facebook: completosinfinitos</p>
+            </div>
+          </div>
+        </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
